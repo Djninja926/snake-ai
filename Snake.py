@@ -1,4 +1,4 @@
-import pygame,sys,random
+import pygame, sys, random
 from pygame.math import Vector2
 
 class SNAKE:
@@ -90,7 +90,6 @@ class SNAKE:
 	def reset(self):
 		self.body = [Vector2(5,10),Vector2(4,10),Vector2(3,10)]
 		self.direction = Vector2(0,0)
-
 
 class FRUIT:
 	def __init__(self):
